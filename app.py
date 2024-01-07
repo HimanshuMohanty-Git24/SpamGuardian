@@ -16,6 +16,11 @@ nltk.download('punkt')
 stop_words = set(stopwords.words('english'))
 ps = PorterStemmer()
 
+st.set_page_config(
+    page_title="SpamGuardian",
+    page_icon="/favicon.ico",  # Replace with the actual path to your favicon.ico
+)
+
 
 def transform_text(text):
     text = text.lower()
