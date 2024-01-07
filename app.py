@@ -18,7 +18,7 @@ ps = PorterStemmer()
 
 st.set_page_config(
     page_title="SpamGuardian",
-    page_icon="/favicon.ico",  # Replace with the actual path to your favicon.ico
+    page_icon="favicon.ico",
 )
 
 
